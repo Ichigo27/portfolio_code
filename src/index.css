@@ -66,9 +66,9 @@ body {
 }
 
 .header {
-    min-height: 75vh;
+    min-height: 79vh;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .btn-outline-dark:hover {
@@ -113,7 +113,7 @@ body {
 
 .card-text {
     font-size: 0.9rem;
-    padding: 0.4rem 1.9rem;
+    padding: 0.2rem 0.5rem;
     text-align: justify;
 }
 
@@ -189,7 +189,7 @@ ul.social-icons {
 .fa-facebook:hover {
     background-color: #3d5b99;
 }
-.fa-twitter {
+.fa-instagram {
     padding: 10px 12px;
     -o-transition: 0.5s;
     -ms-transition: 0.5s;
@@ -198,32 +198,12 @@ ul.social-icons {
     transition: 0.5s;
     background-color: #222831;
 }
-.fa-twitter:hover {
-    background-color: #00aced;
-}
-.fa-rss {
-    padding: 10px 14px;
-    -o-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    background-color: #222831;
-}
-.fa-rss:hover {
-    background-color: #eb8231;
-}
-.fa-youtube {
-    padding: 10px 14px;
-    -o-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    background-color: #222831;
-}
-.fa-youtube:hover {
-    background-color: #e64a41;
+.fa-instagram:hover {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 .fa-linkedin {
     padding: 10px 14px;

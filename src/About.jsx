@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { pageTransition, pageVariants } from "./transition";
+import { Helmet } from "react-helmet";
 
 const About = () => {
     return (
@@ -11,6 +12,10 @@ const About = () => {
             variants={pageVariants}
             transition={pageTransition}
         >
+            <Helmet>
+				{/* <!-- HTML Meta Tags --> */}
+				<title>About</title>
+			</Helmet>
             <section className="header">
                 <div className="container-fluid h-100">
                     <div className="row h-100">
@@ -18,23 +23,7 @@ const About = () => {
                             <h1 className="display-3 about_header">About Me</h1>
                             <br />
                             <p className="about_text">
-                                I describe myself as a passionate person who
-                                loves everything about computers. Exploring new
-                                programming languages and solving real life
-                                problems with technology brings excitement in my
-                                mundane life. In my spare time, I learned web
-                                development and app development and did
-                                internships with companies like Creative
-                                Finserve and Art of Living to test my skills
-                                and know my limits. Working in a team for Smart
-                                India Hackathon 2020 Grand Finale made me
-                                realize that it is a lot of fun to work together
-                                especially when you're working on code. I love
-                                to play open-world games which has immersive
-                                gameplay and really enjoyed riding my bicycle to
-                                get some fresh air and some sunshine. Now I am
-                                learning ML and AI which I want to use in my
-                                future projects.
+                                Final year Computer Science undergraduate pursuing Bachelor of Engineering at Shah and Anchor Kutchhi Engineering College, Mumbai. I discovered my love for programming a few years ago and since then I can't get enough of it. I'm always thrilled to learn about new technologies, having a great interest in Web Development and AI. Aside from writing lines of code and killing bugs I really enjoy taking photos, exploring new destinations and riding my bicycle. My objective is to find a job within my chosen field that will challenge me and allow me to use my education, skills and past experiences in a way that is mutually beneficial to both myself and my employer and allow for future growth and advancement.
                             </p>
                         </div>
                     </div>

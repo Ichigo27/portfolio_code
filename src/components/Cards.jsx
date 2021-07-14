@@ -5,7 +5,6 @@ const Cards = (props) => {
     return (
         <>
             <div className="card text-center h-100 shadow">
-                <div className="overflow-auto"></div>
                 <LazyLoadImage
                     placeholderSrc={props.hold}
                     height={props.height}
@@ -15,9 +14,9 @@ const Cards = (props) => {
                     className="card-img-top"
                 />
                 <div className="card-body text-dark">
-                    <h5 className="card-title greenText fw-bold">
+                    <h6 className="card-title greenText fw-bold">
                         {props.title}
-                    </h5>
+                    </h6>
                     <p className="card-text text-secondary">{props.text}</p>
                     <a
                         href={props.link}

@@ -13,32 +13,22 @@ const Footer = () => {
                         <div className="col-md-6 col-xs-12 text-center text-lg-end">
                             <ul className="social-icons">
                                 <li>
-                                    <a href="" className="social-icon">
+                                    <a href="https://www.facebook.com/amit.ramani.750" className="social-icon">
                                         <i className="fa fa-facebook"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="" className="social-icon">
-                                        <i className="fa fa-twitter"></i>
+                                    <a href="https://www.instagram.com/aamit_kun/" className="social-icon">
+                                        <i className="fa fa-instagram"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="" className="social-icon">
-                                        <i className="fa fa-rss"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" className="social-icon">
-                                        <i className="fa fa-youtube"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" className="social-icon">
+                                    <a href="https://www.linkedin.com/in/amit-ramani-798978204/" className="social-icon">
                                         <i className="fa fa-linkedin"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="" className="social-icon">
+                                    <a href="https://github.com/Ichigo27" className="social-icon">
                                         <i className="fa fa-github"></i>
                                     </a>
                                 </li>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { motion } from "framer-motion";
 import { useAlert } from "react-alert";
+import { Helmet } from "react-helmet";
 import { pageTransition, pageVariants } from "./transition";
 
 const Contact = () => {
@@ -52,6 +53,10 @@ const Contact = () => {
             variants={pageVariants}
             transition={pageTransition}
         >
+            <Helmet>
+				{/* <!-- HTML Meta Tags --> */}
+				<title>Contact</title>
+			</Helmet>
             <section className="header">
                 <div className="container">
                     <h1 className="display-3 about_header mt-2 mb-4 text-center">
